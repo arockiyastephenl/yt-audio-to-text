@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "my-project"
 version = "0.1.0"
-description = "My awesome project"
-authors = ["John Doe <john.doe@example.com>"]
+description = "yt-audio-to-text"
+authors = ["Stephen <lourdustephen95@gmail.com>"]
 
 [tool.poetry.dependencies]
 gtts = "~=2.2.2"
@@ -16,3 +16,6 @@ wave = "~=0.0.2"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+# specify Python version requirement
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0.0"
