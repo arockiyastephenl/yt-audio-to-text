@@ -7,7 +7,7 @@ authors = ["Stephen <lourdustephen95@gmail.com>"]
 [tool.poetry.dependencies]
 python = ">=3.7.1,<4.0.0"
 gtts = "~=2.2.2"
-pyaudio = "==0.2.11"
+pyaudio = "~=0.2.13"
 pytube = "~=10.7.2"
 streamlit = "~=0.88.0"
 openai = "~=0.27.4"
