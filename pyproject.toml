@@ -5,6 +5,7 @@ description = "yt-audio-to-text"
 authors = ["Stephen <lourdustephen95@gmail.com>"]
 
 [tool.poetry.dependencies]
+python = ">=3.7.1,<4.0.0"
 gtts = "~=2.2.2"
 pyaudio = "~=0.2.1"
 pytube = "~=10.7.2"
@@ -16,6 +17,4 @@ wave = "~=0.0.2"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-# specify Python version requirement
-[tool.poetry.dependencies]
-python = ">=3.7.1,<4.0.0"
+
