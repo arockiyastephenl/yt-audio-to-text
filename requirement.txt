@@ -1,0 +1,6 @@
+gtts==2.2.2
+pyaudio==0.2.11
+pytube==10.7.2
+streamlit==0.88.0
+openai==0.11.3
+wave==0.0.2
