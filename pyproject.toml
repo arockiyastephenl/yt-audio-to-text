@@ -15,8 +15,6 @@ pyaudio = { version = "^0.2.11", markers = "sys_platform == 'linux'" }
 ffmpeg = ">=1.0,<2.0"
 libav-tools = ">=0.8.16,<1.0.0"
 
-[tool.poetry.dependencies.dev]
-pytest = "^6.2.4"
 
 [build-system]
 requires = ["poetry>=0.12"]
